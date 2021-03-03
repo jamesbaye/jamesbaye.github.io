@@ -2,7 +2,7 @@
 layout: post
 title: "Beware of Pandas index misalignment"
 date: 2021-03-02
-categories: python pandas index alignment
+tags: python pandas index alignment
 ---
 
 A few weeks ago I encountered a behaviour in Pandas that is discussed surprisingly
