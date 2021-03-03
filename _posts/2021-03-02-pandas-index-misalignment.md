@@ -60,7 +60,7 @@ Since pandas aligns series based on their indices, `B` is replaced with `new C`
 (both have an index of 1), and `C` is replaced with `NaN` since there is no value
 in `new` that has an index of `2`.
 
-We can get the intended behaviour by explicitely setting the right indices in `new`
+We can get the intended behaviour by explicitly setting the right indices in `new`
 
 ```python
 new = pd.Series(["new B", "new C"], index=[1, 2])
