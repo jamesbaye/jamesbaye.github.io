@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Genomics Engineer
+title: An engineer in Genomics
 email: baye.james@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  I'm James, an Engineer turned PhD in Genomics. I write about genomics, data science,
+  I'm James, an engineer turned PhD in Genomics. I write about genomics, data science,
   software engineering and high-performance computing.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
