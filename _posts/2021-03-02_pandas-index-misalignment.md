@@ -1,4 +1,9 @@
-# Beware of Pandas index misalignment
+---
+layout: post
+title: "Beware of Pandas index misalignment"
+date: 2021-03-02
+categories: python pandas index alignment
+---
 
 A few weeks ago I encountered a behaviour in Pandas that is discussed surprisingly
 little. I wanted to set an `.iloc` slice of a `pd.Series` with values coming
@@ -28,10 +33,10 @@ However this returns
 ```python
 old
 ```
->    0        A
->    1    new C
->    2      NaN
->    dtype: object
+    0        A
+    1    new C
+    2      NaN
+    dtype: object
 
 What happened? This is because pandas aligns series based on their indices.
 In the assignment `old.iloc[1:3] = new`, the indices on the left and on the right
